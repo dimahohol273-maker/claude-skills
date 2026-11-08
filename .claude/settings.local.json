@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python bot.py)",
+      "PowerShell(Start-Process \"C:\\\\bat\\\\index.html\")",
+      "PowerShell(Start-Process \"C:\\\\bat\\\\clothing-store\\\\index.html\")",
+      "PowerShell(gh *)",
+      "PowerShell(winget install *)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); & \"C:\\\\Program Files\\\\Git\\\\bin\\\\git.exe\" --version)",
+      "PowerShell(gh auth *)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo create clothing-store --public --description \"Modern clothing store website with animations and gradients\")",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth setup-git)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\Git\\\\bin;\" + $env:Path; & \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth setup-git)",
+      "PowerShell(Start-Process \"https://github.com/dimahohol273-maker/clothing-store\")",
+      "PowerShell(Start-Process \"https://dimahohol273-maker.github.io/clothing-store/\")",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" api repos/dimahohol273-maker/clothing-store/pages/builds/latest)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" api repos/dimahohol273-maker/clothing-store/pages)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo view dimahohol273-maker/clothing-store --web)",
+      "Bash(rtk ls *)",
+      "Bash(rtk git *)",
+      "Bash(git init *)"
+    ]
+  }
+}
